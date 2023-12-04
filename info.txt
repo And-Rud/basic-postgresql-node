@@ -1,0 +1,16 @@
+Необхідно зайти з термінала в postgres:
+1. відкриваємо термінал в PS C:\Program Files\PostgreSQL\16\bin>
+2. далі вводимо .\psql -U postgres мій pass-123456Qwe
+3. Переглянути всі бази - \l
+4. Створити БД - create database node_postgres;
+5. Зайти в базу - \connect node_postgres;
+6. Подивитися таблиці в БД - \dt
+7. Якщо є проблеми з кодуванням кирилиці то необх - .\psql \! chcp 1251
+8. В pgadmin в налаштуваннях нашої бази данних змінюємо кодування з utf8 -> WIN1251
+
+select * from person; - отримаєм всі поля з person
+
+
+
+
+
